@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.container{
+margin-left: 500px;
+display: grid;
+grid-template-rows: 80px 80px 80px 80px;
+grid-template-columns: 60px 60px 60px 60px;
+column-gap: 20px;
+row-gap: 30px;
+}
+.container button{
+    margin:2px;
+    width: 100px;
+
+}
+.one{
+    font-size: 18px;
+    width: 80px;
+    padding: 4px;
+    grid-column: 1/2;
+    background-color: rgb(90, 78, 80);
+    border: none;
+    border-radius: 5px;
+}
+.one:hover{
+    background-color: aquamarine;
+}
+
+.two{
+    font-size: 18px;
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(90, 78, 80);
+    border:none;
+    border-radius: 5px;
+}
+.two:hover{
+    background-color: rgb(78, 7, 221);
+    box-shadow:0 5px 7px rgb(6, 214, 100);
+    color: white;
+}
+.three{
+    font-size: 18px;
+    width: 80px;
+    padding: 4px;
+    background-color: rgb(90, 78, 80);
+    border:none;
+    border-radius: 8px;
+
+}
+.three:hover{
+    background-color: rgb(217, 231, 34);
+    box-shadow: 5px 5px 3px green;
+}
+.four{
+    font-size: 18px;
+    width: 80px;
+    padding: 4px;
+    background-color: rgb(90, 78, 80);
+    border:none;
+    border-radius: 8px;
+}
+.four:hover{
+    background-color: cornflowerblue;
+    box-shadow: 10px 5px 7px orange;
+}
+.five{
+    font-size: 18px;
+    width: 80px;
+    padding: 4px;
+    background-color: rgb(90, 78, 80);
+    border:none;
+    border-radius: 8px;
+}
+.five:hover{
+    background-color: deeppink;
+    box-shadow:-3px -6px 9px rgb(3, 224, 47);
+}
+.six{
+    font-size: 18px;
+    width: 80px;
+    padding: 4px;
+    background-color: rgb(90, 78, 80);
+    border:none;
+    border-radius: 8px;
+}
+.six:hover{
+    background-color: rgb(67, 255, 20);
+    box-shadow: 0 0 20px rgb(3, 224, 47),2px 5px 70px rgb(3, 224, 47),2px 5px 100px rgb(3, 224, 47);
+}
+
+.seven{
+    font-size: 18px;
+    width: 80px;
+    padding: 4px;
+    background-color: rgb(90, 78, 80);
+    border-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.seven:hover{
+    background-color: rgb(246, 253, 253);
+}
+.seven:active{
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+.eight{
+    font-size: 18px;
+    width: 80px;
+    padding: 4px;
+    background-color: rgb(90, 78, 80);
+    border:none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 0 0 rgb(5, 233, 39),4px 4px 0 0 rgb(243, 245, 244);
+
+}
+.eight:hover{
+    box-shadow: 5px 5px 0 0 rgb(5, 233, 39),10px 10px 0 0 rgb(243, 245, 244);
+    transform: translate(-8px -8px);
+}
+.nine{
+    font-size: 18px;
+    width: 80px;
+    padding: 4px;
+    background-color: rgb(99, 93, 94);
+    border:none;
+    border-radius: 8px;
+    transition: background-color 0.9s linear;
+}
+.nine:hover{
+   background-color: rgb(219, 246, 17);
+   color: rgb(103, 96, 96);
+   box-shadow:0 0 20px rgb(237, 67, 209),0 0 80px rgb(237, 67, 209);
+}
+.ten{
+    font-size: 20px;
+    width: 180px;
+    padding: 16px;
+    margin-left: 20px;
+    background-color: rgb(6, 206, 232);
+    border:none;
+    border-radius: 8px;
+    transition: background-color 0.9s linear ;
+    text-transform: uppercase;
+}
+.ten:hover{
+    font-size: 15px;
+    background-color:yellow;
+    margin-left: 30px;
+}
+.mini{
+    margin-top: 20px;
+}
